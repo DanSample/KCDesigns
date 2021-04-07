@@ -10,11 +10,14 @@ const Header = () => {
           alt="Kate and Caroline Designs logo"
         ></img>
         <h2>Logo Here</h2>
-        <section className="nav-bar-wrapper">
-          <a href="/home">Home</a>
-          <a href="/shop">Shop Designs</a>
-          <a href="/contact">Contact Us</a>
-        </section>
+      </section>
+      <section className="nav-bar-wrapper">
+        <a href="/home">Home</a>
+        <a href="/shop">Shop Designs</a>
+        <a href="/contact">Contact Us</a>
+      </section>
+      <section className="cart-button-wrapper">
+        <a href="/cart">Your Cart</a>
       </section>
     </div>
   );
